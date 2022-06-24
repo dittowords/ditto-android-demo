@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.annotation.StringRes
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -19,6 +20,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavDestination.Companion.hierarchy
@@ -74,7 +76,9 @@ fun AppMainScreen() {
                             contentDescription = ""
                         )
                     }
-                })
+                },
+                backgroundColor = Color.White
+            )
         },
         drawerContent = { Drawer(onDestinationClicked = {
             scope.launch {
@@ -82,7 +86,9 @@ fun AppMainScreen() {
             }
         }) },
         bottomBar = {
-            BottomNavigation {
+            BottomNavigation(
+                backgroundColor = Color.White
+            ) {
                 val navBackStackEntry by navController.currentBackStackEntryAsState()
                 val currentDestination = navBackStackEntry?.destination
                 items.forEach { screen ->
