@@ -2,7 +2,7 @@
 
 Dittbnb is a small Android app designed to serve as an example of how Ditto's exported .xml files can be integrated into an android app. While Ditto supports many different ways to use variants, this project demonstrates how to use variants to aide in localizing a mobile application.
 
-![Screen Shot 2022-06-24 at 2 35 44 PM](https://user-images.githubusercontent.com/19922122/175696064-a6d5fed4-7bb5-41bf-9c16-18247927a1d9.png)
+![Screen Shot 2022-06-28 at 12 42 23 PM](https://user-images.githubusercontent.com/19922122/176273526-1ff37ec3-395c-4d17-a753-4750ef292bde.png)
 
 ### 🛠 Initial setup
 
