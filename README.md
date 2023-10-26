@@ -26,8 +26,9 @@ This repo is already set up with the string files and string IDs of the sample p
 
 This means all you have to do is install and authenticate to the CLI to have things be hooked up from end-to-end:
 
-1. **Install the CLI:** In the root of the repository, run `npm install`. This will install all dependencies recorded in the [package.json](./package.json) file, where the latest version of the Ditto CLI is listed.
-2. **To authenticate, run the CLI:**
+1. **[Install Node.js](https://nodejs.org/en/download)**: The Ditto CLI requires v16.0.0 or higher.
+2. **Install the CLI:** In the root of the repository, run `npm install`. This will install all dependencies recorded in the [package.json](./package.json) file, where the latest version of the Ditto CLI is listed.
+3. **To authenticate, run the CLI:**
     
     `npx @dittowords/cli pull`
     
