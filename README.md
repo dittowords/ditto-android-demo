@@ -1,6 +1,6 @@
 # DittoPay — Android Demo App
 
-DittoPay is a small Android app that corresponds with the sample project in your workspace. With this sample app, you can set up our developer integrations[TODO: LINK DEV DOCS] to sync text edits in just a few minutes.
+DittoPay is a small Android app that corresponds with the sample project in your workspace. With this sample app, you can set up our [developer integrations](https://developer.dittowords.com) to sync text edits in just a few minutes.
 
 We also use the sample app to showcase how you can use Ditto’s developer integrations in an Android environment for: 
 
@@ -22,7 +22,7 @@ To run the sample app locally:
 
 ## 2. Setting up the Ditto CLI 🤖
 
-This repo is already set up with the string files and string IDs of the sample project in your workspace, as well as a config for the CLI[TODO: Link configuration page] to sync text from the DittoPay sample components for Android. 
+This repo is already set up with the string files and string IDs of the sample project in your workspace, as well as a [config for the CLI](https://github.com/dittowords/ditto-android-demo/blob/master/ditto/config.yml) to sync text from the DittoPay sample components for Android. 
 
 This means all you have to do is install and authenticate to the CLI to have things be hooked up from end-to-end:
 
@@ -52,7 +52,7 @@ format: android
 
 ## 3. Syncing Edits ✍️
 
-1. Make edits to DittoPay text in Ditto[TODO: Link Web-app]. You can make edits to the components connected in the DittoPay sample project itself, or to the sample components directly! 
+1. Make edits to [DittoPay text in Ditto](https://app.dittowords.com/projects/sample). You can make edits to the components connected in the DittoPay sample project itself, or to the sample components directly! 
 2. Pull in the latest edits via the Ditto CLI: 
 
     ```bash
