@@ -2,6 +2,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="cards.label.card_number_sample" ditto_api_id="cards.label.card-number-sample">Card No.</string>
     <string name="cards.label.expiration_sample" ditto_api_id="cards.label.expiration-sample">Expiration</string>
+    <string name="cards.offer_sample" ditto_api_id="cards.offer-sample">See personalized recommendations and offers.</string>
+    <string name="errors.offline.description_sample" ditto_api_id="errors.offline.description-sample">Sorry, we couldn’t [what the user was trying to do]. Please try again in a few minutes.</string>
+    <string name="errors.offline.header_sample" ditto_api_id="errors.offline.header-sample">Error [what user was trying to do]</string>
+    <string name="home.budget_feedback.description_sample" ditto_api_id="home.budget-feedback.description-sample">You\'re well within all of your budgets. </string>
+    <string name="home.budget_feedback.header_sample" ditto_api_id="home.budget-feedback.header-sample">🎉 Excellent work!</string>
+    <string name="home.cta.create_budget_sample" ditto_api_id="home.cta.create-budget-sample">Create a new budget</string>
+    <string name="home.cta.request_payment_sample" ditto_api_id="home.cta.request-payment-sample">Request a payment</string>
+    <string name="home.cta.send_payment_sample" ditto_api_id="home.cta.send-payment-sample">Send a payment</string>
     <string name="input.birthday.helper_text_sample" ditto_api_id="input.birthday.helper-text-sample">You must to be 18 or older.</string>
     <string name="input.birthday.label_sample" ditto_api_id="input.birthday.label-sample">Date of birth</string>
     <string name="input.birthday.placeholder_sample" ditto_api_id="input.birthday.placeholder-sample">MM/DD/YYYY</string>
@@ -24,7 +32,7 @@
     <string name="onboarding.account_details.header_sample" ditto_api_id="onboarding.account-details.header-sample">Set up your account details</string>
     <string name="onboarding.account_details.hint_text_sample" ditto_api_id="onboarding.account-details.hint-text-sample">You’ll use these to log in.</string>
     <string name="onboarding.confirm_identity.header_sample" ditto_api_id="onboarding.confirm-identity.header-sample">A few more questions</string>
-    <string name="onboarding.cta.back_sample" ditto_api_id="onboarding.cta.back-sample">&lt;- Back</string>
+    <string name="onboarding.cta.back_sample" ditto_api_id="onboarding.cta.back-sample">← Back</string>
     <string name="onboarding.cta.forgot_password_sample" ditto_api_id="onboarding.cta.forgot-password-sample">Forgot Password\?</string>
     <string name="onboarding.cta.next_sample" ditto_api_id="onboarding.cta.next-sample">Next</string>
     <string name="onboarding.cta.skip_sample" ditto_api_id="onboarding.cta.skip-sample">Skip</string>
