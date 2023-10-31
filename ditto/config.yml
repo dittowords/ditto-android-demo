@@ -1,0 +1,7 @@
+sources:
+  components: 
+    folders:
+      - id: sample-components
+        name: Sample Components
+variants: true
+format: android

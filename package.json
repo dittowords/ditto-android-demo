@@ -1,0 +1,13 @@
+{
+  "name": "banking-app",
+  "version": "1.0.0",
+  "description": "DittoPay is a small Android app that corresponds with the sample project in your workspace.",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@dittowords/cli": "4.1.0"
+  },
+  "scripts": {
+    "ditto:pull": "npx @dittowords/cli pull && cp ditto/components__sample-components__base.xml app/src/main/res/values/strings.xml && cp ditto/components__sample-components__portuguese---br-sample.xml app/src/main/res/values-pt/strings.xml"
+  }
+}
