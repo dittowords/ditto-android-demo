@@ -36,20 +36,20 @@
     <string name="onboarding.cta.forgot_password_sample" ditto_api_id="onboarding.cta.forgot-password-sample">Forgot Password\?</string>
     <string name="onboarding.cta.next_sample" ditto_api_id="onboarding.cta.next-sample">Next</string>
     <string name="onboarding.cta.skip_sample" ditto_api_id="onboarding.cta.skip-sample">Skip</string>
-    <string name="onboarding.enter_phone_number.header_sample" ditto_api_id="onboarding.enter-phone-number.header-sample">Thanks, <xliff:g id="userName" example="Lily">%1$s</xliff:g>! What’s your phone number\?</string>
+    <string name="onboarding.enter_phone_number.header_sample" ditto_api_id="onboarding.enter-phone-number.header-sample">Thanks, <xliff:g id="userNameSample" example="Lily">%1$s</xliff:g>! What’s your phone number\?</string>
     <string name="onboarding.information_disclaimer.description_sample" ditto_api_id="onboarding.information-disclaimer.description-sample">We’re required by law to collect this information to confirm your identity. Your details are safely encrypted and will never be shared with unauthorized entities.</string>
     <string name="onboarding.information_disclaimer.header_sample" ditto_api_id="onboarding.information-disclaimer.header-sample">Why do we need this information\?</string>
-    <string name="onboarding.link_bank.disclaimer_sample" ditto_api_id="onboarding.link-bank.disclaimer-sample">We never store your bank details in full. We’re a licensed provider of money transfer services (NMLS ID: <xliff:g id="nmlsId" example="004532">%1$s</xliff:g>).</string>
+    <string name="onboarding.link_bank.disclaimer_sample" ditto_api_id="onboarding.link-bank.disclaimer-sample">We never store your bank details in full. We’re a licensed provider of money transfer services (NMLS ID: <xliff:g id="nmlsIdSample" example="004532">%1$s</xliff:g>).</string>
     <string name="onboarding.link_bank.h2_sample" ditto_api_id="onboarding.link-bank.h2-sample">Add a bank account so you can send and receive payments.</string>
     <string name="onboarding.link_bank.header_sample" ditto_api_id="onboarding.link-bank.header-sample">Link a bank using your debit card</string>
     <string name="onboarding.log_in.header_sample" ditto_api_id="onboarding.log-in.header-sample">Log In</string>
     <string name="onboarding.log_in.sign_up_message_sample" ditto_api_id="onboarding.log-in.sign-up-message-sample">Don’t have an account\?</string>
     <string name="onboarding.phone_number_verification.didnt_receive_sample" ditto_api_id="onboarding.phone-number-verification.didnt-receive-sample">Didn’t receive it\?</string>
     <string name="onboarding.phone_number_verification.header_sample" ditto_api_id="onboarding.phone-number-verification.header-sample">Please enter the verification code</string>
-    <string name="onboarding.phone_number_verification.hint_text_sample" ditto_api_id="onboarding.phone-number-verification.hint-text-sample">We sent it to <xliff:g id="userPhoneNumber" example="(555) 555-555">%1$s</xliff:g>. It’ll expire in <xliff:g id="verificationCodeExpiration" example="10">%2$s</xliff:g> minutes.</string>
+    <string name="onboarding.phone_number_verification.hint_text_sample" ditto_api_id="onboarding.phone-number-verification.hint-text-sample">We sent it to <xliff:g id="userPhoneNumberSample" example="(555) 555-555">%1$s</xliff:g>. It’ll expire in <xliff:g id="verificationCodeExpirationSample" example="10">%2$s</xliff:g> minutes.</string>
     <plurals name="onboarding.phone_number_verification.hint_text_sample" ditto_api_id="onboarding.phone-number-verification.hint-text-sample">
-        <item quantity="other">We sent it to <xliff:g id="userPhoneNumber__1" example="(555) 555-555">%1$s</xliff:g>. It’ll expire in <xliff:g id="verificationCodeExpiration__1" example="10">%2$s</xliff:g> minutes.</item>
-        <item quantity="one">We sent it to <xliff:g id="userPhoneNumber__2" example="(555) 555-555">%1$s</xliff:g>. It’ll expire in <xliff:g id="verificationCodeExpiration__2" example="10">%2$s</xliff:g> minute.</item>
+        <item quantity="other">We sent it to <xliff:g id="userPhoneNumberSample__1" example="(555) 555-555">%1$s</xliff:g>. It’ll expire in <xliff:g id="verificationCodeExpirationSample__1" example="10">%2$s</xliff:g> minutes.</item>
+        <item quantity="one">We sent it to <xliff:g id="userPhoneNumberSample__2" example="(555) 555-555">%1$s</xliff:g>. It’ll expire in <xliff:g id="verificationCodeExpirationSample__2" example="10">%2$s</xliff:g> minute.</item>
     </plurals>
     <string name="onboarding.phone_number_verification.resend_sample" ditto_api_id="onboarding.phone-number-verification.resend-sample">Resend code</string>
     <string name="onboarding.phone_number.disclosure_sample" ditto_api_id="onboarding.phone-number.disclosure-sample">By providing your phone number, you consent to receiving a verification text message. Standard text messaging rates may apply based on your mobile carrier. Your number will be kept confidential and won\'t be used for any other purposes without your explicit consent.</string>
@@ -57,6 +57,6 @@
     <string name="onboarding.profile.header_sample" ditto_api_id="onboarding.profile.header-sample">Tell us about you</string>
     <string name="onboarding.profile.id_disclaimer_sample" ditto_api_id="onboarding.profile.id-disclaimer-sample">Please enter your info exactly as it appears on your ID. We may need to ask you for ID verification later.</string>
     <string name="onboarding.sign_up.cta_sample" ditto_api_id="onboarding.sign-up.cta-sample">Sign Up</string>
-    <string name="onboarding.sign_up.disclaimer_sample" ditto_api_id="onboarding.sign-up.disclaimer-sample">By signing up, you agree to our <xliff:g id="termsAndConditionsLink" example="Terms and Conditions">%1$s</xliff:g></string>
+    <string name="onboarding.sign_up.disclaimer_sample" ditto_api_id="onboarding.sign-up.disclaimer-sample">By signing up, you agree to our <xliff:g id="termsAndConditionsLinkSample" example="Terms and Conditions">%1$s</xliff:g></string>
     <string name="onboarding.sign_up.login_message_sample" ditto_api_id="onboarding.sign-up.login-message-sample">Already have an account\?</string>
 </resources>
